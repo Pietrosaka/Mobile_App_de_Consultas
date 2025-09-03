@@ -58,7 +58,6 @@ Certifique-se de que você tem as seguintes ferramentas instaladas:
     # ou
     yarn install
     ```
-    ```
 3.  **Inicie o aplicativo:**
     ```bash
     # Para Android
