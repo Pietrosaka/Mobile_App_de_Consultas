@@ -4,143 +4,114 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9.0-blue.svg)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Um aplicativo mobile para agendamento de consultas médicas, desenvolvido com React Native e TypeScript.
+Este é um aplicativo mobile completo para agendamento e gerenciamento de consultas médicas, desenvolvido com **React Native** e **TypeScript**.
 
-## Sobre o Projeto
+## Visão Geral
 
-Este é um aplicativo mobile desenvolvido em React Native para agendamento de consultas médicas. O sistema permite que pacientes visualizem médicos disponíveis, agendem consultas e gerenciem seus compromissos médicos de forma simples e intuitiva.
+O projeto é uma solução prática e intuitiva para pacientes que desejam agendar e controlar seus compromissos de saúde. Com uma interface **moderna e responsiva**, ele simplifica a busca por médicos, a marcação de horários e a gestão de consultas, tudo na palma da mão.
 
-### Funcionalidades Principais
+### Destaques do Projeto
 
-- Visualização de médicos disponíveis
-- Agendamento de consultas
-- Gerenciamento de consultas (visualizar, editar, cancelar)
-- Interface intuitiva e responsiva
-- Persistência de dados local
-- Validação de datas e horários
-- Seleção de médicos por especialidade
-
-## Tecnologias Utilizadas
-
-- [React Native](https://reactnative.dev/) - Framework para desenvolvimento mobile
-- [TypeScript](https://www.typescriptlang.org/) - Superset JavaScript com tipagem estática
-- [Styled Components](https://styled-components.com/) - Estilização com CSS-in-JS
-- [React Navigation](https://reactnavigation.org/) - Navegação entre telas
-- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/) - Armazenamento local
-- [React Native Elements](https://reactnativeelements.com/) - Biblioteca de componentes UI
-
-## Pré-requisitos
-
-Antes de começar, você precisa ter instalado em sua máquina:
-- [Node.js](https://nodejs.org/) (versão 14 ou superior)
-- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
-- [React Native CLI](https://reactnative.dev/docs/environment-setup)
-- [Android Studio](https://developer.android.com/studio) (para desenvolvimento Android)
-- [Xcode](https://developer.apple.com/xcode/) (para desenvolvimento iOS, apenas em macOS)
-
-## Instalação
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/marcacaoDeConsultasMedicas.git
-cd marcacaoDeConsultasMedicas
-```
-
-2. Instale as dependências:
-```bash
-npm install
-# ou
-yarn install
-```
-
-3. Instale as dependências do iOS (apenas em macOS):
-```bash
-cd ios
-pod install
-cd ..
-```
-
-4. Inicie o aplicativo:
-```bash
-# Para Android
-npm run android
-# ou
-yarn android
-
-# Para iOS (apenas em macOS)
-npm run ios
-# ou
-yarn ios
-```
-
-## Estrutura do Projeto
-
-```
-src/
-├── components/     # Componentes reutilizáveis
-│   ├── Header/    # Componente de cabeçalho
-│   └── AppointmentForm/  # Formulário de agendamento
-├── screens/        # Telas do aplicativo
-│   ├── HomeScreen.tsx
-│   └── CreateAppointmentScreen.tsx
-├── styles/         # Estilos globais e tema
-│   └── theme.ts
-├── types/          # Definições de tipos TypeScript
-│   ├── appointments.ts
-│   ├── doctors.ts
-│   └── navigation.ts
-└── utils/          # Funções utilitárias
-```
-
-## Funcionalidades Detalhadas
-
-### Agendamento de Consultas
-- Seleção de médico por especialidade
-- Escolha de data e horário
-- Adição de descrição/motivo da consulta
-- Validação de disponibilidade
-
-### Gerenciamento de Consultas
-- Visualização de todas as consultas agendadas
-- Edição de consultas existentes
-- Cancelamento de consultas
-- Atualização de status
-
-### Interface do Usuário
-- Design moderno e responsivo
-- Navegação intuitiva
-- Feedback visual de ações
-- Suporte a temas claro/escuro
-
-## Contribuição
-
-Para contribuir com o projeto:
-
-1. Faça um fork do repositório
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## Autores
-
-- **Professor Hete Caetano** - [hete.caetano@fiap.com.br](mailto:hete.caetano@fiap.com.br)
-
-## Agradecimentos
-
-- [React Native Community](https://reactnative.dev/help)
-- [React Navigation](https://reactnavigation.org/)
-- [Styled Components](https://styled-components.com/)
-- Todos os contribuidores do projeto
-
-## Suporte
-
-Se você encontrar algum problema ou tiver sugestões, por favor abra uma issue no GitHub.
+* **Agendamento Simplificado:** Encontre médicos, selecione a especialidade e marque sua consulta em poucos toques.
+* **Gerenciamento Total:** Visualize, edite ou cancele seus compromissos com facilidade.
+* **Interface Otimizada:** Navegação intuitiva e design limpo para uma experiência de usuário fluida.
+* **Armazenamento Local:** Usa **AsyncStorage** para persistir os dados no dispositivo, garantindo que suas informações estejam sempre disponíveis.
 
 ---
 
-Desenvolvido por Professor Hete Caetano e compartilhado com alunos de TDS 
+## Tecnologias e Ferramentas
+
+Construído sobre uma base robusta de tecnologias modernas para desenvolvimento mobile:
+
+* **React Native:** O framework principal para construir a aplicação.
+* **TypeScript:** Garante um código mais seguro e escalável com tipagem estática.
+* **Styled Components:** Permite estilização baseada em componentes, facilitando a manutenção do design.
+* **React Navigation:** Gerencia a navegação entre as diferentes telas do app.
+* **AsyncStorage:** Biblioteca para armazenamento de dados local.
+* **React Native Elements:** Kit de componentes de UI prontos para uso, acelerando o desenvolvimento.
+
+---
+
+## Como Rodar o Projeto
+
+Siga estes passos simples para configurar e executar o aplicativo em sua máquina.
+
+### Pré-requisitos
+
+Certifique-se de que você tem as seguintes ferramentas instaladas:
+
+* **Node.js** (versão 14+)
+* **npm** ou **yarn**
+* **React Native CLI**
+* **Android Studio** (para Android) ou **Xcode** (para iOS)
+
+### Instalação
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/marcacaoDeConsultasMedicas.git](https://github.com/seu-usuario/marcacaoDeConsultasMedicas.git)
+    cd marcacaoDeConsultasMedicas
+    ```
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
+3.  **Instale as dependências do iOS (apenas em macOS):**
+    ```bash
+    cd ios
+    pod install
+    cd ..
+    ```
+4.  **Inicie o aplicativo:**
+    ```bash
+    # Para Android
+    npm run android
+    # ou
+    yarn android
+
+    # Para iOS (apenas em macOS)
+    npm run ios
+    # ou
+    yarn ios
+    ```
+
+---
+src/
+├── components/         # Componentes reutilizáveis (botões, formulários, etc.)
+├── screens/            # As telas principais do aplicativo
+├── styles/             # Estilos globais e temas
+├── types/              # Definições de tipos do TypeScript
+└── utils/              # Funções utilitárias
+---
+
+## Contribuição
+
+Contribuições são sempre bem-vindas! Se você deseja ajudar a melhorar este projeto, siga o fluxo abaixo:
+
+1.  Faça um **fork** do repositório.
+2.  Crie uma nova branch para a sua funcionalidade (`git checkout -b minha-nova-feature`).
+3.  Faça suas alterações e **commit**-as (`git commit -m 'Adiciona nova funcionalidade'`).
+4.  Envie suas mudanças para o repositório (`git push origin minha-nova-feature`).
+5.  Abra um **Pull Request**.
+
+## Licença
+
+Este projeto está licenciado sob a **Licença MIT**. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).
+
+## Autores
+
+* **Professor Hete Caetano** - [hete.caetano@fiap.com.br](mailto:hete.caetano@fiap.com.br)
+
+## Agradecimentos Especiais
+
+* À comunidade **React Native** e **React Navigation**.
+* A todos os **contribuidores** que ajudam a tornar este projeto melhor.
+
+---
+
+Desenvolvido por Pietro Saccarrão Cougo -  **RM 555839**.
+## Estrutura do Código
+
+A organização do projeto foi pensada para ser clara e modular, facilitando a manutenção e a adição de novas funcionalidades.
