@@ -87,7 +87,7 @@ Este projeto está licenciado sob a **Licença MIT**. Para mais detalhes, consul
 
 ## Autores
 
-* **Professor Hete Caetano** - [hete.caetano@fiap.com.br](mailto:hete.caetano@fiap.com.br)
+* **Pietro Saccarrão Cougo** - [rm555839@fiap.com.br](mailto:rm555839@fiap.com.br)
 
 ## Agradecimentos Especiais
 
@@ -95,8 +95,6 @@ Este projeto está licenciado sob a **Licença MIT**. Para mais detalhes, consul
 * A todos os **contribuidores** que ajudam a tornar este projeto melhor.
 
 ---
-
-Desenvolvido por Pietro Saccarrão Cougo -  **RM 555839**.
 ## Estrutura do Código
 
 A organização do projeto foi pensada para ser clara e modular, facilitando a manutenção e a adição de novas funcionalidades.
