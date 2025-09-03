@@ -49,7 +49,7 @@ Certifique-se de que você tem as seguintes ferramentas instaladas:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/marcacaoDeConsultasMedicas.git](https://github.com/seu-usuario/marcacaoDeConsultasMedicas.git)
+    git clone [https://github.com/seu-usuario/marcacaoDeConsultasMedicas.git]
     cd marcacaoDeConsultasMedicas
     ```
 2.  **Instale as dependências:**
@@ -58,13 +58,8 @@ Certifique-se de que você tem as seguintes ferramentas instaladas:
     # ou
     yarn install
     ```
-3.  **Instale as dependências do iOS (apenas em macOS):**
-    ```bash
-    cd ios
-    pod install
-    cd ..
     ```
-4.  **Inicie o aplicativo:**
+3.  **Inicie o aplicativo:**
     ```bash
     # Para Android
     npm run android
