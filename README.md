@@ -71,15 +71,6 @@ Certifique-se de que você tem as seguintes ferramentas instaladas:
     yarn ios
     ```
 
----
-src/
-├── components/         # Componentes reutilizáveis (botões, formulários, etc.)
-├── screens/            # As telas principais do aplicativo
-├── styles/             # Estilos globais e temas
-├── types/              # Definições de tipos do TypeScript
-└── utils/              # Funções utilitárias
----
-
 ## Contribuição
 
 Contribuições são sempre bem-vindas! Se você deseja ajudar a melhorar este projeto, siga o fluxo abaixo:
