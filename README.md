@@ -105,4 +105,4 @@ O principal objetivo do aplicativo é centralizar o agendamento e gerenciamento 
 
 👤 Desenvolvido por **Pietro Saka**  
 🔗 [LinkedIn](https://www.linkedin.com/in/pietro-saccarr%C3%A3o-cougo/)  
-✉ Email: pietrocougo@gmail.com *(adicione se desejar)*
+✉ Email: pietrocougo@gmail.com
